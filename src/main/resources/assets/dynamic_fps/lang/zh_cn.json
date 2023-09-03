@@ -1,8 +1,21 @@
 {
-	"config.dynamic_fps.title": "动态帧率设定",
+	"config.dynamic_fps.title": "动态帧率配置",
+
+	"config.dynamic_fps.category.hovered": "悬停",
+	"config.dynamic_fps.category.unfocused": "失焦",
+	"config.dynamic_fps.category.invisible": "不可见",
+
+	"config.dynamic_fps.frame_rate_target": "帧率限制值",
+	"config.dynamic_fps.frame_rate_target_description": "将帧率限制值设置为 -1 以禁用降低帧率",
+	"config.dynamic_fps.volume_multiplier": "音量限制值",
+	"config.dynamic_fps.graphics_state": "图形选项",
+	"config.dynamic_fps.show_toasts": "显示提示",
+	"config.dynamic_fps.run_garbage_collector": "运行内存回收器(GC)",
 
 	"key.dynamic_fps.toggle_forced": "强制限制帧率",
 	"key.dynamic_fps.toggle_disabled": "动态帧率开关",
-	"gui.dynamic_fps.hud.reducing": "动态帧率: 已强制限制帧率",
-	"gui.dynamic_fps.hud.disabled": "动态帧率已禁用"
+	"gui.dynamic_fps.hud.reducing": "动态帧率: 强制降低帧率",
+	"gui.dynamic_fps.hud.disabled": "动态帧率已禁用",
+
+	"modmenu.descriptionTranslation.dynamic_fps": "动态调整游戏帧率，使MineCraft在后台时不占用过多资源"
 }
